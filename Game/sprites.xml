@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6a981269df5e1d9708e4368b15668c3a:d7b8fd92b1741eee476656dff74bf18d:a3c246832ea35f0bdda766159aff8361$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="sprites.png" width="95" height="332">
+    <sprite n="goblin_l0.PNG" x="38" y="1" w="45" h="73" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_l1.PNG" x="1" y="1" w="35" h="75" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_l2.PNG" x="1" y="159" w="43" h="82" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_l3.PNG" x="48" y="244" w="46" h="87" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_r0.PNG" x="44" y="78" w="50" h="73" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_r1.PNG" x="1" y="78" w="41" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_r2.PNG" x="46" y="159" w="43" h="83" pX="0.5" pY="0.5"/>
+    <sprite n="goblin_r3 (2).PNG" x="1" y="244" w="45" h="84" pX="0.5" pY="0.5"/>
+</TextureAtlas>
